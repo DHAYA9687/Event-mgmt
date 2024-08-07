@@ -83,6 +83,7 @@ const ExploreEvent = () => {
               </div>
               <div className="flex flex-col justify-center items-start">
                 <h1 className="text-2xl font-bold">{club.name}</h1>
+                {console.log("sucessfully connected")}
                 <h3 className="text-lg text-gray-400">{club.no} Events</h3>
               </div>
             </div>
