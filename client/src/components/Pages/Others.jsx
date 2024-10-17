@@ -56,7 +56,7 @@ function Others() {
   const string = "OTHERS";
   useEffect(() => {
     axios
-      .get("http://localhost:5000/event")
+      .get("https://event-mgmt-49mp.onrender.com/event")
       .then((res) => {
         // console.log(res.data.data);
         setEvent(res.data.data);
