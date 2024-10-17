@@ -45,7 +45,7 @@ function Devs() {
   const string = "DEVS";
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/event/${string}`)
+      .get(`https://event-mgmt-49mp.onrender.com/event/${string}`)
       .then((res) => {
         console.log(res.data.data);
         setEvent(res.data.data);
