@@ -18,7 +18,7 @@ const CreateEvent = () => {
       eventDate,
     };
     console.log(data);
-    fetch("https://event-mgmt-49mp.onrender.com/event/check", {
+    fetch("https://event-mgmt-qmya.onrender.com/event/check", {
       method: "POST", // Specify the method
       headers: {
         "Content-Type": "application/json",
