@@ -47,7 +47,7 @@ const Header = () => {
           className="main block md:hidden  mx-2 w-6 h-6 text-white text-3xl cursor-pointer"
           onClick={() => setMenu(!menu)}
         >
-          <path
+        <path
             strokeLinecap="round"
             strokeLinejoin="round"
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
