@@ -7,7 +7,7 @@ const DeleteBook = () => {
   const { id } = useParams();
   const handleDeleteBook = () => {
     axios
-      .delete(`https://event-mgmt-49mp.onrender.com/event/${id}`)
+      .delete(`https://event-mgmt-qmya.onrender.com/event/${id}`)
       .then((response) => {
         alert("Event Deleted Successfully");
         navigate("/explore");
