@@ -44,7 +44,7 @@ function Leo() {
   const string = "LEO";
   useEffect(() => {
     axios
-      .get(`https://event-mgmt-49mp.onrender.com/event/${string}`)
+      .get(`https://event-mgmt-qmya.onrender.com/event/${string}`)
       .then((res) => {
         console.log(res.data.data);
         setEvent(res.data.data);
