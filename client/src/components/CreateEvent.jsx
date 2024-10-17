@@ -217,7 +217,7 @@ const CreateEvent = () => {
         <div className="-ml-[190px]">
           <img
             className=" z-0  mt-[50px] w-[600px]"
-            src="../../src/assets/Images/pie.png"
+            src="/Images/pie.png"
             alt=""
           />
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img1 from "../assets/Images/1.jpeg";
 import Header from "./Header";
+import img1 from "/Images/1.jpeg";
 const clubs = [
   {
     id: 1,

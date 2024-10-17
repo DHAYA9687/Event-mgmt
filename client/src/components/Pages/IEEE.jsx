@@ -109,11 +109,7 @@ function IEEE() {
         </div>
       </div>
       <div className="fixed bottom-0 right-0 -z-50">
-        <img
-          className="w-[700px] h-[200px] "
-          src="../../src/assets/Images/bubble.png"
-          alt=""
-        />
+        <img className="w-[700px] h-[200px] " src="/Images/bubble.png" alt="" />
       </div>
     </div>
   );

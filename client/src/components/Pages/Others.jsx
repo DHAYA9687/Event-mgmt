@@ -1,8 +1,8 @@
 import axios from "axios";
 import { default as React, useEffect, useState } from "react";
-import Header from "../Header";
 import { MdOutlineDelete } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Header from "../Header";
 
 const Mappictures = {
   MARATHON:
@@ -121,11 +121,7 @@ function Others() {
         </div>
       </div>
       <div className="fixed bottom-0 right-0 -z-50">
-        <img
-          className="w-[700px] h-[200px] "
-          src="../../src/assets/Images/bubble.png"
-          alt=""
-        />
+        <img className="w-[700px] h-[200px] " src="/Images/bubble.png" alt="" />
       </div>
     </div>
   );

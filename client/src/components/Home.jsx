@@ -45,11 +45,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="">
-          <img
-            src=".././src/assets/Images/spiral.png"
-            alt="event"
-            className="w-[500px]"
-          />
+          <img src="/Images/spiral.png" alt="event" className="w-[500px]" />
         </div>
       </div>
     </div>

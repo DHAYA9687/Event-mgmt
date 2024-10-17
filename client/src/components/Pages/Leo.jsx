@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Header from "../Header";
 import { MdOutlineDelete } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Header from "../Header";
 const Mappictures = {
   MARATHON:
     "https://th.bing.com/th/id/R.0efd588d998aa3ced9bd6d6b57ca9433?rik=L9YRJYhW5XPxGw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fe%2f9%2f6%2f400814.jpg&ehk=DCI%2bq3iDdTfFea831ymDNFHFywQQ4nz7c36HfI56vAA%3d&risl=&pid=ImgRaw&r=0",
@@ -108,11 +108,7 @@ function Leo() {
         </div>
       </div>
       <div className="fixed bottom-0 right-0 -z-50">
-        <img
-          className="w-[700px] h-[200px] "
-          src="../../src/assets/Images/bubble.png"
-          alt=""
-        />
+        <img className="w-[700px] h-[200px] " src="/Images/bubble.png" alt="" />
       </div>
     </div>
   );
